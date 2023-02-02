@@ -1,1 +1,29 @@
-# jitsi-meet-ios-sdk-test
+# jitsi-meet-ios-sdk-test  
+
+## jitsi meet ios sdk 저장을 위한 test repo  
+
+### 🍀 Jitsi-Meet IOS SDK 화 작업 순서  
+---
+- 1️⃣ [jitsi-Meet git](https://github.com/jitsi/jitsi-meet) 👉 Repository Clone<br>
+- 2️⃣ `node_modules 설치` <br>
+(node v16 이상일 경우 밑 명령어로 실행을 권고, yarn 일경우 yarn을 통해서 라이브러리 설치해주면 됨)<br>
+> npm --legacy-peer-deps i <br>
+- 3️⃣ `pods 설치`<br>
+밑 명령어는 m1 기준으로 patch-package 실행 및 pod 설치 진행함.<br>
+> npx patch-package && cd ios && pod cache clean --all && arch -x86_64 pod install --repo-update && cd ..<br>
+- 4️⃣ `mkdir jitsi-meet-ios-sdk-releases`<br>
+- 5️⃣ 프로젝트폴더/ios/scripts/release-sdk.sh 들어가서 7번째줄에 `RELEASE_REPO` 변경<br>
+  > RELEASE_REPO=$(realpath ${THIS_DIR}/../../jitsi-meet-ios-sdk-releases)<br>
+- 6️⃣ `cd ios`<br>
+- 7️⃣ `cd scripts`<br>
+- 8️⃣ `sh release-sdk.sh` 실행 이전에 밑에 있는 방법대로 custom jitsi sdk 버전 관리를 위해서 변경<br>
+
+### 🍬 SDK Version 변경 🍬
+---
+  - xcode > sdk > src > Info.plist
+
+    > - `Bundle version string (short)` 수정
+
+> - ✅ **_참고_** ✅  
+
+> - release-sdk.sh 스크립트 성공시 sdk 가 /jitsi-meet-ios-sdk-releases 에 생성됨
