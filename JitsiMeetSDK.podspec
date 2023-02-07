@@ -6,10 +6,8 @@ Pod::Spec.new do |s|
   s.homepage     = 'https://github.com/jitsi/jitsi-meet-ios-sdk-releases'
   s.license      = 'Apache 2'
   s.author       = 'Custom Jitsi Meet project authors'
-  s.source       = { :git => 'https://github.com/yeongil4764/jitsi-meet-ios-sdk-test.git'}
-
+  s.source       = { :git => 'https://github.com/yeongil4764/jitsi-meet-ios-sdk-test.git', :tag => s.version }
   s.platform     = :ios, '11.0'
-
   s.vendored_frameworks = 'Frameworks/JitsiMeetSDK.xcframework'
   s.dependency 'Giphy', '2.1.20'
   s.dependency 'JitsiWebRTC', '~> 106.0'
