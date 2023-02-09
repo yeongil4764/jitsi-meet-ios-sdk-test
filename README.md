@@ -2,7 +2,7 @@
 
 ## jitsi meet ios sdk 저장을 위한 test repo  
 
-### 🍀 Jitsi-Meet IOS SDK 화 작업 순서
+### 🌱 Jitsi-Meet IOS SDK 화 작업 순서
 ---
 - 1️⃣ [jitsi-Meet git](https://github.com/jitsi/jitsi-meet) 👉 Repository Clone
 - 2️⃣ `node_modules 설치` 
@@ -19,6 +19,8 @@
 - 8️⃣ xcode > `sdk` > src > Info.plist 진입후 => `Bundle version string (short)`을 통해서 custom jitsi sdk 버전 관리
 - 9️⃣ `sh release-sdk.sh`
 
-> - ✅ **_참고_** ✅  
-> - release-sdk.sh 스크립트 성공시 sdk 가 /jitsi-meet-ios-sdk-releases 에 생성됨  
-> - SDK 만들어지면 만들어진 폴더 들어가서 pod trunk push CustomJitsiMeetSDK.podspec --allow-warnings 실행해서 `cocoapods 최신화 필요`
+### 🍀 SDK 생성 이후 작업 순서
+> 
+- 1️⃣ release-sdk.sh 스크립트 성공시 sdk 가 /jitsi-meet-ios-sdk-releases 에 생성됨  
+- 2️⃣ 생성된 폴더에 들어가서 `pod trunk push CustomJitsiMeetSDK.podspec --allow-warnings`. 
+실행하는 이유는 cocoapods에 `SDK 최신화`
