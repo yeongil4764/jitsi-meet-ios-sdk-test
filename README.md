@@ -21,4 +21,4 @@
 
 > - ✅ **_참고_** ✅  
 > - release-sdk.sh 스크립트 성공시 sdk 가 /jitsi-meet-ios-sdk-releases 에 생성됨
-
+> SDK 만들어지면 만들어진 폴더 들어가서 pod trunk push CustomJitsiMeetSDK.podspec --allow-warnings 실행해서 cocoapods 
