@@ -33,6 +33,10 @@
  * JWT token used for authentication.
  */
 @property (nonatomic, copy, nullable) NSString *token;
+/**
+ * WEHAGO Conference token used for Conference Enterance.
+ */
+@property (nonatomic, copy, nullable) NSString *roomToken;
 
 /**
  * Feature flags. See: https://github.com/jitsi/jitsi-meet/blob/master/react/features/base/flags/constants.js
@@ -69,6 +73,8 @@
 
 @property (nonatomic, copy, nullable, readonly) NSString *room;
 @property (nonatomic, copy, nullable, readonly) NSString *token;
+
+@property (nonatomic, copy, nullable, readonly) NSString *roomToken;
 
 @property (nonatomic, readonly, nonnull) NSDictionary *featureFlags;
 
