@@ -40,7 +40,7 @@
 /**
  * WEHAGO Conference token used for Conference Enterance.
  */
-@property (nonatomic, copy, nullable) NSString *roomToken;
+@property (nonatomic, copy, nullable) NSString *joinCode;
 /**
  * WEHAGO Deployed Services .
  */
@@ -49,6 +49,10 @@
  * WEHAGO Conference call type - 1: 음성전화,  2: 화상전화, 3: 화상회의
  */
 @property (nonatomic, copy, nullable) NSNumber *callType;
+/**
+ * WEHAGO Conference ExternalUserName
+ */
+@property (nonatomic, copy, nullable) NSString *externalUserName;
 
 /**
  * Feature flags. See: https://github.com/jitsi/jitsi-meet/blob/master/react/features/base/flags/constants.js
@@ -87,9 +91,10 @@
 @property (nonatomic, copy, nullable, readonly) NSString *token;
 
 @property (nonatomic, copy, nullable, readonly) NSString *userAuth;
-@property (nonatomic, copy, nullable, readonly) NSString *roomToken;
+@property (nonatomic, copy, nullable, readonly) NSString *joinCode;
 @property (nonatomic, copy, nullable, readonly) NSArray<NSString *> *deployedServices;
 @property (nonatomic, copy, nullable, readonly) NSNumber *callType;
+@property (nonatomic, copy, nullable, readonly) NSString *externalUserName;
 
 @property (nonatomic, readonly, nonnull) NSDictionary *featureFlags;
 
