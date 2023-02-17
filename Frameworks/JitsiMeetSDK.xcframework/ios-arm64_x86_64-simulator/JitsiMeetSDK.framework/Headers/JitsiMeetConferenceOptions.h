@@ -54,6 +54,8 @@
  */
 @property (nonatomic, copy, nullable) NSString *externalUserName;
 
+@property (nonatomic, assign) BOOL isSDK;
+
 /**
  * Feature flags. See: https://github.com/jitsi/jitsi-meet/blob/master/react/features/base/flags/constants.js
  */
@@ -95,6 +97,7 @@
 @property (nonatomic, copy, nullable, readonly) NSArray<NSString *> *deployedServices;
 @property (nonatomic, copy, nullable, readonly) NSNumber *callType;
 @property (nonatomic, copy, nullable, readonly) NSString *externalUserName;
+@property (nonatomic, assign, readonly) BOOL isSDK;
 
 @property (nonatomic, readonly, nonnull) NSDictionary *featureFlags;
 
