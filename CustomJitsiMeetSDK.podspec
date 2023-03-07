@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "CustomJitsiMeetSDK"
-  s.version      = "0.0.17"
+  s.version      = "0.0.18"
   s.summary      = "CustomJitsiMeetSDK IOS SDK"
   s.description  = 'Jitsi Meet is a WebRTC compatible, free and Open Source video conferencing system that provides browsers and mobile applications with Real Time Communications capabilities.'
   s.homepage     = 'https://github.com/yeongil4764/jitsi-meet-ios-sdk-test'
