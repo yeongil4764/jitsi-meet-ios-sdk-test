@@ -433,7 +433,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		i+WGpXlee2a4NxSa8g/fRDPw+RA=
+		r2zXnjjVBd3sWVUhlNaRk3oZh1M=
 		</data>
 		<key>Modules/JitsiMeetSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -453,7 +453,7 @@
 		</data>
 		<key>Modules/JitsiMeetSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		lqh4rYJQt5vDHWQYosenzdJv9ew=
+		T6FuZGMpr3QZW/tFap/Ww3Y5pdM=
 		</data>
 		<key>Modules/JitsiMeetSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -473,7 +473,7 @@
 		</data>
 		<key>Modules/JitsiMeetSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		NTgMRV84qu0rhJ+d+7cqGiZQ6OA=
+		N+1XRP/3y1VvnJ+5RU6QF9ybiEQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -602,6 +602,10 @@
 		<key>assets/react/features/base/icons/png/ic_alert_warning.png</key>
 		<data>
 		t/j7Z9hu/3jGuwGYP5hyKEX88qY=
+		</data>
+		<key>assets/react/features/base/icons/png/ic_back_000.png</key>
+		<data>
+		JUD6BSN3Ja9KAhtmzS0dRyEQiZI=
 		</data>
 		<key>assets/react/features/base/icons/png/ic_back_24.png</key>
 		<data>
@@ -734,6 +738,18 @@
 		<key>assets/react/features/base/icons/png/ic_send_w.png</key>
 		<data>
 		gwa5+qLlhVII01cY6NJaMqd4fzE=
+		</data>
+		<key>assets/react/features/base/icons/png/ic_setting_jessie.png</key>
+		<data>
+		Pp0rMQEWdO1vNTBCUnlRs3YHFe8=
+		</data>
+		<key>assets/react/features/base/icons/png/ic_setting_man.png</key>
+		<data>
+		P6on7aTOg+HxhETPVidTLmXEfyE=
+		</data>
+		<key>assets/react/features/base/icons/png/ic_setting_suzy.png</key>
+		<data>
+		ICZfuN1AHbChHQOz5en+yVF6Y6g=
 		</data>
 		<key>assets/react/features/base/icons/png/ic_share_w.png</key>
 		<data>
@@ -897,7 +913,7 @@
 		</data>
 		<key>main.jsbundle</key>
 		<data>
-		V0+AWggwHy3+vDbW427x2WyqLcs=
+		r9E9Xc1LuL/2TBgb3NFDZE9gxvk=
 		</data>
 		<key>noAudioSignal.mp3</key>
 		<data>
@@ -1486,7 +1502,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TrrOrBf6lRqXsyhFARgf2fwi2oTCs3M/Q4fN1hLECYQ=
+			DdjPWG7woUa3nt0CN/M24X2CCPRTprwuLWnd30QGM0k=
 			</data>
 		</dict>
 		<key>Modules/JitsiMeetSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -1521,7 +1537,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KwfrdlC3pbw0mbtWRHytQTgWAoodWZ1v5Y5dCD3gaW4=
+			4hxgmuiRPoqRKLK/oKVi5czFjTiVK/tCdQjZ33gRSHg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -1746,6 +1762,13 @@
 			<key>hash2</key>
 			<data>
 			R2bAKW9BiTMcpEURSHOEDMP3VIy7TkuW8hSeozt9/XI=
+			</data>
+		</dict>
+		<key>assets/react/features/base/icons/png/ic_back_000.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			TYv1A+3GLiRJwYFIHDNzv9op0jO3SL4zsv1+YXqzg3U=
 			</data>
 		</dict>
 		<key>assets/react/features/base/icons/png/ic_back_24.png</key>
@@ -1977,6 +2000,27 @@
 			<key>hash2</key>
 			<data>
 			yKIEeKWgtLkHVTgta52cZUyCIx/Whl+qtaJkvv2EzpU=
+			</data>
+		</dict>
+		<key>assets/react/features/base/icons/png/ic_setting_jessie.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			oITJr6I7yHrxmdl8GpdyBwSBykLhJzn6uxKR7QzM/Z8=
+			</data>
+		</dict>
+		<key>assets/react/features/base/icons/png/ic_setting_man.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			2j5zOCF0TStyIuYApScE7ZYFUORfSDSniVYI6L6I83M=
+			</data>
+		</dict>
+		<key>assets/react/features/base/icons/png/ic_setting_suzy.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			xZftMVDz8cC0fUDQTq79aiwF09BcA+k+kVGLo5iotSc=
 			</data>
 		</dict>
 		<key>assets/react/features/base/icons/png/ic_share_w.png</key>
@@ -2263,7 +2307,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pizoCJY4tFCC5yeGe2k+fWLFql08qP5wKbt2NVkT0FM=
+			RQnO+Zo6+3PLrowZwkI5VmJW+suK1s/wJimRRj64kNw=
 			</data>
 		</dict>
 		<key>noAudioSignal.mp3</key>
