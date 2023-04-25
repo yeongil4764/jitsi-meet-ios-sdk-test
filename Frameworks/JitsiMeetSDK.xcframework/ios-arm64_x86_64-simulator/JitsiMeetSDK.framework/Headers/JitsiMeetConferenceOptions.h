@@ -44,7 +44,7 @@
 /**
  * WEHAGO Deployed Services .
  */
-@property (nonatomic, copy, nullable) NSArray<NSString *> *deployedServices;
+@property (nonatomic, copy, nullable) NSString *deployedServices;
 /**
  * WEHAGO Conference call type - 1: 음성전화,  2: 화상전화, 3: 화상회의
  */
@@ -55,6 +55,8 @@
 @property (nonatomic, copy, nullable) NSString *externalUserName;
 
 @property (nonatomic, assign) BOOL isSDK;
+
+@property (nonatomic, copy, nullable) NSString *isDEV;
 
 /**
  * Feature flags. See: https://github.com/jitsi/jitsi-meet/blob/master/react/features/base/flags/constants.js
@@ -94,10 +96,11 @@
 
 @property (nonatomic, copy, nullable, readonly) NSString *userAuth;
 @property (nonatomic, copy, nullable, readonly) NSString *joinCode;
-@property (nonatomic, copy, nullable, readonly) NSArray<NSString *> *deployedServices;
+@property (nonatomic, copy, nullable, readonly) NSString *deployedServices;
 @property (nonatomic, copy, nullable, readonly) NSNumber *callType;
 @property (nonatomic, copy, nullable, readonly) NSString *externalUserName;
 @property (nonatomic, assign, readonly) BOOL isSDK;
+@property (nonatomic, copy, nullable, readonly) NSString *isDEV;
 
 @property (nonatomic, readonly, nonnull) NSDictionary *featureFlags;
 
